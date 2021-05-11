@@ -1,0 +1,39 @@
+# Site settings
+title:       International Hate Observatory Project
+email:       info@mediacloud.org
+author:      Media Ecosystems Analysis Group
+
+description: ""
+
+baseurl:     ""
+url:         "https://internationalhateobservatory.org"
+lang:        "en"
+
+# Optional features
+animated:             false
+show_related_posts:   false
+
+text:
+  og_locale: 'en_US'
+
+# Build settings
+markdown:     kramdown
+redcarpet:
+  extensions: ['smart', 'tables', 'with_toc_data']
+permalink:    pretty
+sass:
+  style: compressed
+# https://github.com/jekyll/jekyll/issues/2938
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - Rakefile
+  - README.md
+  - screenshot.png
+  - vendor
+  - generate_icons.sh
+  - todo.txt
+  - serve.sh
+  - install.sh
+  - update_toc.sh
+  - LICENSE.txt
